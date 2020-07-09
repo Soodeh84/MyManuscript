@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model ref="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model ref="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Persian Manuscript: a treatise about coloring the paper</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>working file for digital written artefacts course held by Pietro Liuzzo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+	           <msDesc>
+	              <msIdentifier>
+									<country>Iran</country>
+                  <settlement>Tehran</settlement>
+	                 <repository>Manuscript Library of the Islamic consultative Assembly of Iran</repository>
+	                 <idno>15326</idno>
+									 <msName xml:lang="fa">رساله ای در رنگ آمیزی کاغذ</msName>
+									 <msName xml:lang="en">A treatise about coloring the paper</msName>
+               </msIdentifier>
+							 <msContents>
+								 <msItem>
+									 <author xml:lang="fa">گمنام</author>
+									 <author xml:lang="en">anonymous</author>
+									 <title xml:lang="fa">کاغذ الوان</title>
+									 <title xml:lang="en">colorful Paper</title>
+									 <incipit xml:lang="ar">بسم الله الرحمن الرحیم</incipit>
+									 <incipit xml:lang="en">In the name of God</incipit>
+									 <textLang mainLang="fa">Persian</textLang>
+
+								 </msItem>
+							 </msContents>
+							 <physDesc>
+								 <objectDesc form="codex">
+									 <supportDesc>
+										 <support>
+											 <p>
+												 <material>Paper</material>
+													 <watermark>with no watermark;</watermark>
+												 <color>heavy cream-colored paper;</color>
+												 <objectType>Codex.</objectType>
+
+											 </p>
+											 <condition>
+												 <p>The manuscript shows signs of damage from water on the top edge of leaves.
+													 However, the codex is reasonably well preserved.
+												 </p>
+											 </condition>
+										 </support>
+									 </supportDesc>
+									  <layoutDesc>
+											<layout writtenLines="22 24">
+												<p>All pages have between 22 and 24 long lines except the last page which has 13 lines </p>
+											</layout>
+											<layout>
+											<p>Continuous diagonal lines.</p>
+											</layout>
+										</layoutDesc>
+								 </objectDesc>
+								 <handDesc>
+									 <p>Written in one hand.</p>
+
+								 </handDesc>
+								 <calligraphyDesc>
+									 <calligraphy>
+									 <p>Nastaʻliq</p>
+									 <inkDesc>
+										 <ink>
+											 <p>Black ink for the main text.</p>
+											 <p>Red ink for the name of colors.</p>
+										 </ink>
+
+									 </inkDesc>
+									 </calligraphy>
+								 </calligraphyDesc>
+							 </physDesc>
+							 <history>
+								 <origin>
+									 <p>Written in <origPlace>Iran</origPlace></p>
+								 </origin>
+							 </history>
+	           </msDesc>
+         </listBibl>
+				 <div xml:lang="fa">
+					 <pb n="1" facs="https://www.ical.ir/UploadedData/284/Editor/Images/19-01164-00007.jpg"></pb>
+					 <foreign xml:lang="ar">
+					 بسم الله الرحمن الرحیم<lb n="1"/>
+					 الحمدلله رب العالمین و الصلوﺓ و السلام<lb n="2"/>
+					 </foreign>
+					 بدانکه الوان کاغذ <decoNote type="rubrication">اما بعد</decoNote><foreign xml:lang="ar">علی خیرخلقه محمد وآله اجمعین</foreign><lb n="3"/>
+					 بسیار است بعضی مفرد و بعضی مرکب اما آنچه مفرد است چون زرد<lb n="4"/>
+					 وسرخ وآل و کبود و زنگاری و خودرنگ است و کاهی و آنچه مرکب است چون<lb n="5"/>
+					 <name type="spice" ref="https://www.britannica.com/topic/saffron">زعفران</name>از<decoNote type="rubrication">رنگ زرد</decoNote>عودی و سبزوگلگون و فریسه و نارنجی پس طریق هریک که بنمود بیان کرده شود<lb n="6"/>
+					 بی غش که تلخ باشد و ریش های او دراز و باریک و از یکدیگر متفرق و سطر و بهم چسبیده وخوبتران کمندی باشد<lb n="7"/>
+					 بهر یک مثقال او پنجاه مثقال آب صافی در شیشه کند و سرآن محکم کند وسه روز در آفتاب گذارد پس بکرباس پاک بیالاید<lb n="8"/>
+					 ودرقدح چینی کند تا صاف شود وجزم چون کاه شده باشد بیندازد وبعدازان در طبقی بزرگ مسین ریزدو کاغذ بآن رنگ کند بعدازان<lb n="9"/>
+					 پاره کرباس پاک درطنابی اندازد وکاغذ بربالای آن افکند تا بیکدیگر نچسبد ودرسایه خشک کند وهرچند دیرتر خشک شود بهترباشد<lb n="10"/>
+					 که بآب بقم کند باید که بقم را بکوبد نرم و دوشبانه روز درآب کند وبعد ازان بجوشاندآن مقدارکه گوشت گاو پزند و سرد<decoNote type="rubrication">رنگ سرخ </decoNote><lb n="11"/>
+					 سازد و کاغذ را اول بآب زاج ترکی براردو چون خشک شود باین آب رنگ کند ودرسایه خشک کند اما این رنگ پایدار نیست<lb n="12"/>
+					 بآب گل بستان فروز و آن هم کم بقا باشد و از رنگ لاک خوبترباشد و طریق آنست که بهرپنج سیر لاک<decoNote type="rubrication">نوع دیگر </decoNote>و زود تغییرمی یابد <lb n="13"/>
+					 خوب را دردیگ سنگین کندویکمن آب دروی ریزدو بجوشاند تا بدوسیرآیدو صاف کند وکاغذ بآن رنگ کندو درسایه خشک کند<lb n="14"/>
+					 بغایت پسندیده است و بسیار می ماند چنان است که قدری معصفر یعنی گل خسک نرم بساید وبرشالی یا کرباسی فکند و بیاویزد<decoNote type="rubrication">رنگ آل </decoNote><lb n="15"/>
+					 واندک اندک آب سرد برو ریزد تا هرزردابی که دارد برود تا آن زمان که آب سفید آید و زردی نماند بعدازان در سایه<lb n="16"/>
+					... خشک کند<lb n="17"/>
+					 ...<lb n="18"/>
+					 ...<lb n="19"/>
+					 ...<lb n="20"/>
+					 ...<lb n="21"/>
+					 ...<lb n="22"/>
+					 ...<lb n="23"/>
+
+
+				 </div>
+      </body>
+  </text>
+</TEI>
